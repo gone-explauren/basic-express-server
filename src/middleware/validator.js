@@ -2,7 +2,7 @@
 
 function getName(req, res, next) {
   if (!req.query.name) {
-    next('Please provide a name.');
+    next('Please provide your name.');
   } else {
     next();
   }

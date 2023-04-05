@@ -9,5 +9,7 @@ const server = require('./src/server');
 const PORT = process.env.PORT;
 console.log(PORT);
 
+// console.log("This is the app import!!!, app")
+// .start() is a function on app!
 server.start(PORT);
 // app.listen(PORT, () => {})
