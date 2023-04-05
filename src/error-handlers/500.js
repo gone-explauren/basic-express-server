@@ -1,8 +1,7 @@
 'use strict'
 
-// error handler -> four is the magic number of parameters!!
 function error500(err, req, res, next) {
-  console.log(err);
+  console.log("Server error: ", err);
   res.status(500).send('Please provide your name.');
 };
 

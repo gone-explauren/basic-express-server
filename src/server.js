@@ -16,7 +16,7 @@ const error404 = require('./error-handlers/404.js')
 const error500 = require('./error-handlers/500.js')
 
 // every req that comes in will go through the middleware (cors first, then logger)
-app.use(cors);
+app.use(cors());
 
 // application level (this runs no matter which route is being used in the request)
 app.use(logger);
