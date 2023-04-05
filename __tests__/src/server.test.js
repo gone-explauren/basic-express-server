@@ -36,5 +36,5 @@ test('Should return a 200 if name is in the query string', async () => {
   // the route and the method are correct, name is passed
   const response = await request.get('/person?name=Laurel');
   expect(response.status).toEqual(200);
-  expect(response.body).toEqual({ name: Laurel });
+  expect(response.body).toEqual({ name: 'Laurel' });
 });
