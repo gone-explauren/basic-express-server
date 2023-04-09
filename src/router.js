@@ -1,4 +1,4 @@
-// moved to la-03
+// moved to lab-03
 // 'use strict'
 
 // const express = require('express');
